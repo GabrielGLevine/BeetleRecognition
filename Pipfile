@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+opencv-python = "*"
+numpy = "*"
+tqdm = "*"
+click = "*"
+
+[dev-packages]
+black = "*"
+isort = "*"
+snakeviz = "*"
+ipython = "*"
+
+[requires]
+python_version = "3.12"
